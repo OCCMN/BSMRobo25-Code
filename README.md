@@ -41,5 +41,6 @@ Drive System
 ----
 This is where I started to create the entire control scheme. This first version asinged a function to each unit. You can see more about the control scheme on the pdf of my notes.
 
-
-This script never worked, but I used lots of the elements of it for the next verions. Also I spent a bunch of time on it, so felt I had to include it.
+V1DriveSystem(Non-Functional).py
+----
+First version of the drive system. This script never worked, but I used lots of the elements of it for the next verions. Also I spent a bunch of time on it, so felt I had to include it.
