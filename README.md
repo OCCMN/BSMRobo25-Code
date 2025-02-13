@@ -39,4 +39,4 @@ little differently, but I still used the threads library.
 
 Drive System
 ----
-This is where I started to create the entire control scheme. This first version asinged a function to each unit.
+This is where I started to create the entire control scheme. This first version asinged a function to each unit. This script never worked, but I used lots of the elements of it for the next verions. Also I spent a bunch of time on it, so felt I had to include it. 
