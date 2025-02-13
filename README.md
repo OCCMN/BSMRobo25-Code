@@ -49,6 +49,10 @@ V2DriveSys.py
 ----
 This is the point where I took a step back after the previous version to check myself before commiting so much time to something that wouldn't work. This time each key press directly uses the command to run the motors instead of referencing a function to do each action. This version only has some of the actions.
 
-V3Drive.py
+V3Drive(Non-Functional).py
 ----
-This version added all the actions and has the tkinter window. The tkinter window is a basic version without the text box or instructions.
+This version added all the actions and has the tkinter window. The tkinter window is a basic version without the text box or instructions. This is the version where I ran into the issue with the keyboard listener and tkinter window not working together, I had a few ideas of how to fix it so I made a version save. 
+
+V4Drive.py
+----
+This is the version where I implemented the fixes from backgroundpynput_PoC.py. 
