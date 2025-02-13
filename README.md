@@ -51,8 +51,16 @@ This is the point where I took a step back after the previous version to check m
 
 V3Drive(Non-Functional).py
 ----
-This version added all the actions and has the tkinter window. The tkinter window is a basic version without the text box or instructions. This is the version where I ran into the issue with the keyboard listener and tkinter window not working together, I had a few ideas of how to fix it so I made a version save. 
+This version added all the actions and has the tkinter window. The tkinter window is a basic version without the text box or instructions. 
+This is the version where I ran into the issue with the keyboard listener and tkinter window not working together, I had a few ideas of how 
+to fix it so I made a version save. 
 
 V4Drive.py
 ----
-This is the version where I implemented the fixes from backgroundpynput_PoC.py. 
+This is the version where I implemented the fixes from backgroundpynput_PoC.py. This is the only change I made, I made a save because it was 
+functioning exacly as I wanted it to.
+
+V5Drive.py
+----
+This version adds a bit to the message and has the window open in full screen. I had plans to have the terminal update in the window, but 
+that was going to be very complicated. Given the time restaints I choose to leave that feature tabled for a later date. NEW FEATURE?
