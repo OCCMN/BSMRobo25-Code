@@ -27,3 +27,9 @@ This is a functional script to run a captive window. This is when I had gotten t
 when you hold down the keys to move the robot, the key would repeatadly put that letter into the shell or terminal. I wanted a window to pop 
 up with a hidden entry text input box when you ran the code so you didn't get the repated letters. The preticular library I used couldn't be 
 implemented with the drive code, but it is functional, so I figured I would include it.
+
+tkinerwindow.py
+----
+This is the solution to the previous PoC not being able to be implemented with the drive code. It uses the tkinter library instead of the os.
+
+
