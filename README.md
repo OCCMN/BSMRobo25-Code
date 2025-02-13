@@ -44,3 +44,7 @@ This is where I started to create the entire control scheme. This first version 
 V1DriveSystem(Non-Functional).py
 ----
 First version of the drive system. This script never worked, but I used lots of the elements of it for the next verions. Also I spent a bunch of time on it, so felt I had to include it.
+
+V2DriveSys.py
+----
+This is the point where I took a step back after the previous version to check myself before commiting so much time to something that wouldn't work. This time each key press directly uses the command to run the motors instead of referencing a function to do each action. This version only has some of the actions.
