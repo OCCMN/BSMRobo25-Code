@@ -71,6 +71,8 @@ Current final versions
 
 test.py
 ----
+Sanity check if the main code breaks
 
 drive.py
 ----
+Essentailly just V5Drive.py, easier name to type than that. The up/down, true/false values are differnent on the actual pi based on polarity of the motors.
