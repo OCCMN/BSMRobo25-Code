@@ -62,8 +62,9 @@ functioning exacly as I wanted it to.
 
 V5Drive.py
 ----
-This version adds a bit to the message and has the window open in full screen. I had plans to have the terminal update in the window, but 
-that was going to be very complicated. Given the time restaints I choose to leave that feature tabled for a later date. NEW FEATURE?
+This version adds a bit to the message and has the window open in full screen. I had plans to have the terminal update in the 
+window, but that was going to be very complicated. Given the time restaints I choose to leave that feature tabled for a later 
+date. NEW FEATURE?
 
 FINALS
 ----
@@ -75,4 +76,39 @@ Sanity check if the main code breaks
 
 drive.py
 ----
-Essentailly just V5Drive.py, easier name to type than that. The up/down, true/false values are differnent on the actual pi based on polarity of the motors.
+Essentailly just V5Drive.py, easier name to type than that. The up/down, true/false values are differnent on the actual pi based 
+on polarity of the motors.
+
+
+
+Brushless/Arm Control
+----
+
+BrushlessMotorController_PWMControl.ino
+----
+Arduino script using the servo library to run the REV Neos w/ a Spark Max Controller. Had to do a lot to get it running, the 
+motor contoroller didn't like a straight PWM signal for some reason. The timing makes it a single pulse after time=0 (best I can 
+do explaining it in words).
+
+Yellow = PWM
+Green = Ground
+
+Next Steps
+----
+1. Control an LED on arduino with keyboard inputs on a windows 11 machine (serial comunication)
+2. Control 1 motor with speed ajustments over serial arduino
+3. Write full control scheme, and test w/out integration of bottom drive
+5. Integrate w/bottom drive (After Qualies?)
+   - Potential Issue w/ keyboard listener not ignoring inputs meant for pi
+   - Issue w/ running out of usb ports? Can we use the hub ports? 
+
+Future Docs/Files (Reminder List)
+----
+- REV Resources
+- Brushed Motor Resources
+- Brushed Motor Controller Resources
+- How to set up pi for this code
+- Image of Pi disk
+- REV Hardware client motor controller settings
+- Coding w/ ChatGPT Tricks and Tips
+- Arm Schemeatic Notes
