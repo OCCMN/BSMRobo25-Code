@@ -27,3 +27,7 @@ ArduinoBrushedMotor.ino
 There is one brushed motor for the arm that I needed to control with the arduino so this was just a test script for that. But this worked so well with serial as well that I want to look into using only an ardino and serial to control the robot(after qualies). It would 
 remove the hassle of having to run through the pi and the IO expander. Also removes the latency with VNC. I think this would also make integrating easier as I would just have to figure out how to use the same keys to do different thing at different times. An Arm Mode and a 
 Drive mode. NEW FEATURE?
+
+V2 Serial Motor
+----
+
