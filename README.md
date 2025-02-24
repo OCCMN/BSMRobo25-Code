@@ -14,7 +14,6 @@ Next Steps
 
 Future Docs/Files (Reminder List)
 ----
-- Re-Upload Other Robot control scheme doc. 
 - REV Resources
 - Brushed Motor Resources
 - Brushed Motor Controller Resources
