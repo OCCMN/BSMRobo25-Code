@@ -36,3 +36,6 @@ V3 Serial Motor
 ----
 Adds Claw functionality, and a e-stop feature 
 
+V4 Serial Motor Keyboard
+---- 
+Works with V3 Serial Motor. Adds a tkinter window for inputs, still need to update the control instructions.
