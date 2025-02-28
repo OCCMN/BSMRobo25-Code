@@ -28,14 +28,22 @@ There is one brushed motor for the arm that I needed to control with the arduino
 remove the hassle of having to run through the pi and the IO expander. Also removes the latency with VNC. I think this would also make integrating easier as I would just have to figure out how to use the same keys to do different thing at different times. An Arm Mode and a 
 Drive mode. NEW FEATURE?
 
-V2 Serial Motor
+V2SerialMotor.ino
 ----
 Adds breaking, by selection keys 2 speeds
 
-V3 Serial Motor
+V3SerialMotor.ino
 ----
 Adds Claw functionality, and a e-stop feature 
 
-V4 Serial Motor Keyboard
+V4SerialMotorKeyboard.py
 ---- 
-Works with V3 Serial Motor. Adds a tkinter window for inputs, still need to update the control instructions.
+Works with V3SerialMotor.ino. Adds a tkinter window for inputs, still need to update the control instructions.
+
+V5SerialMotorKeyboard.py
+----
+Pairs with V3SerialMotor.ino. Cleans up code with a key map (thanks chatgpt). It also adds a key to pause the listener to switch to the other listener on the Pi window. 
+
+V6SerialMotorKeyboard.py 
+----
+Pairs with V3SerialMotor.ino. Updates instructions in tkinter window. 
