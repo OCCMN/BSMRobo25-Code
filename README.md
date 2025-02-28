@@ -14,11 +14,9 @@ Next Steps
 
 Future Docs/Files (Reminder List)
 ----
-- REV Resources
 - Brushed Motor Resources
 - Brushed Motor Controller Resources
 - How to set up pi for this code
 - Image of Pi disk
-- REV Hardware client motor controller settings
 - Coding w/ ChatGPT Tricks and Tips
 - Arm Schemeatic Notes
