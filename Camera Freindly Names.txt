@@ -1,0 +1,49 @@
+To Edit A Device Friendly Name
+1. Run: Device Manager 
+2. Select Device with name you want to change and open properties 
+3. Select Details tab
+4. From Properties drop down select:"Driver Key" and copy that value
+5. Run: regedit
+6. Follow path: Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum
+7. Use ctrl+f and paste Driver Key, hit enter
+8. Double Click "FriendlyName" Value 
+9. Change to Device Name + A color 
+10. Hit Ok
+11. Close and reopen Device Manager to see it take effect 
+12. Repeat as necessary
+
+Colors:
+Red
+Orange
+Yellow 
+Green 
+Blue 
+Purple
+Pink
+Brown
+White
+Black
+Magenta 
+Turquoise 
+Indigo 
+Mauve
+Violet 
+Gray
+Lavender 
+Tan
+Beige 
+Bronze
+Navy
+Crimson
+Mahogany 
+Emerald
+Olive
+
+Device: USB Camera
+Used Colors:
+- Red
+- Orange 
+- Yellow
+- Green
+- Blue
+- Purple
